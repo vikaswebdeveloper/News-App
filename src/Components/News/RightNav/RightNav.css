@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topics button{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+    border-bottom: 3px solid #00246B;
+    background-color: #8AB6F9;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.topics button:hover{
+    transform: translateY(-10px);
+    background-color: #5398ff;
+}
